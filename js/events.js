@@ -8,8 +8,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    alert('sup bro');
-  //  $('img').addClass('.tasty');
+    $('img').addClass('.tasty');
   });
 }
 
